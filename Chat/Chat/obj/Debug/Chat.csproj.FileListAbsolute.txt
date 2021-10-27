@@ -1,0 +1,10 @@
+D:\work_Chat\Chat\Chat\bin\Debug\Chat.dll.config
+D:\work_Chat\Chat\Chat\bin\Debug\Chat.dll
+D:\work_Chat\Chat\Chat\bin\Debug\Chat.pdb
+D:\work_Chat\Chat\Chat\bin\Debug\System.ServiceModel.Primitives.dll
+D:\work_Chat\Chat\Chat\bin\Debug\System.ServiceModel.Primitives.pdb
+D:\work_Chat\Chat\Chat\obj\Debug\Chat.csproj.AssemblyReference.cache
+D:\work_Chat\Chat\Chat\obj\Debug\Chat.csproj.CoreCompileInputs.cache
+D:\work_Chat\Chat\Chat\obj\Debug\Chat.csproj.CopyComplete
+D:\work_Chat\Chat\Chat\obj\Debug\Chat.dll
+D:\work_Chat\Chat\Chat\obj\Debug\Chat.pdb
