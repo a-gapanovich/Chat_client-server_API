@@ -6,11 +6,11 @@
         xmlns:local="clr-namespace:ChatClient"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Margin="0,-36,-45.4,0">
+    <Grid Margin="0,-36,-45.4,0" Loaded="Grid_Loaded">
         <TextBox x:Name="tbUserName" HorizontalAlignment="Left" Height="45" TextWrapping="Wrap" Text="Имя юзера" VerticalAlignment="Top" Width="443" Margin="294,52,0,0"/>
-        <Button Content="Connect" HorizontalAlignment="Left" VerticalAlignment="Top" Width="137" Margin="60,52,0,0" Height="45"/>
+        <Button x:Name="bConDicon" Content="Connect" HorizontalAlignment="Left" VerticalAlignment="Top" Width="137" Margin="60,52,0,0" Height="45" Click="Button_Click"/>
         <ListBox x:Name="lbChat" HorizontalAlignment="Left" Height="99" VerticalAlignment="Top" Width="677" Margin="60,143,0,0"/>
-        <TextBox x:Name="tbMessage" HorizontalAlignment="Left" Height="120" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="677" Margin="60,277,0,0"/>
+        <TextBox x:Name="tbMessage" HorizontalAlignment="Left" Height="120" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="677" Margin="60,277,0,0" KeyDown="tbMessage_KeyDown"/>
 
     </Grid>
 </Window>
