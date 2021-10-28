@@ -18,14 +18,14 @@ namespace Chat
         void Disonnect(int id);
 
         [OperationContract(IsOneWay =true)]
-        int SendMsg(string msg);
+        void SendMsg(string msg, int id);
 
 
     }
 
     public interface IServerChatCallback
     {
-        [OperationContract]
+        [OperationContract(IsOneWay = true)]
         void MsgCallback(string msg);
     }
 }

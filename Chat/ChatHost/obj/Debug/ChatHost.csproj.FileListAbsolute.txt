@@ -1,0 +1,11 @@
+D:\work_Chat\Chat\ChatHost\obj\Debug\ChatHost.csproj.CoreCompileInputs.cache
+D:\work_Chat\Chat\ChatHost\obj\Debug\ChatHost.csproj.AssemblyReference.cache
+D:\work_Chat\Chat\ChatHost\bin\Debug\ChatHost.exe.config
+D:\work_Chat\Chat\ChatHost\bin\Debug\ChatHost.exe
+D:\work_Chat\Chat\ChatHost\bin\Debug\ChatHost.pdb
+D:\work_Chat\Chat\ChatHost\bin\Debug\Chat.dll
+D:\work_Chat\Chat\ChatHost\bin\Debug\Chat.pdb
+D:\work_Chat\Chat\ChatHost\bin\Debug\Chat.dll.config
+D:\work_Chat\Chat\ChatHost\obj\Debug\ChatHost.csproj.CopyComplete
+D:\work_Chat\Chat\ChatHost\obj\Debug\ChatHost.exe
+D:\work_Chat\Chat\ChatHost\obj\Debug\ChatHost.pdb

@@ -20,17 +20,51 @@ namespace Chat
         
         public int Connect(string name)
         {
-            ServerUser user = 
+            ServerUser user = new ServerUser()
+            {
+                ID = nextId,
+                Name = name,
+                operationContext = OperationContext.Current
+
+
+            };
+            nextId++;
+
+            SendMsg(user.Name + " подключился к чату!", 0);
+            users.Add(user);
+            return user.ID;
+
         }
 
         public void Disonnect(int id)
         {
-            throw new NotImplementedException();
+            var user = users.FirstOrDefault(i => i.ID == id);
+            if (user!=null)
+            {
+                users.Remove(user);
+                SendMsg(user.Name + " покинкл чат!", 0);
+
+            }
         }
 
-        public int SendMsg(string msg)
+        public void SendMsg(string msg, int id)
         {
-            throw new NotImplementedException();
+            foreach (var item in users)
+            {
+                string answer = DateTime.Now.ToShortDateString();
+                var user = users.FirstOrDefault(i => i.ID == id);
+                if (user != null)
+                {
+                    answer += ":" + user.Name + " ";
+
+                }
+                answer += msg;
+
+                item.operationContext.GetCallbackChannel<IServerChatCallback>().MsgCallback(answer);
+
+            }
         }
+
+        
     }
 }

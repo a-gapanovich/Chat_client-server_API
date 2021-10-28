@@ -8,3 +8,17 @@ D:\work_Chat\Chat\Chat\obj\Debug\Chat.csproj.CoreCompileInputs.cache
 D:\work_Chat\Chat\Chat\obj\Debug\Chat.csproj.CopyComplete
 D:\work_Chat\Chat\Chat\obj\Debug\Chat.dll
 D:\work_Chat\Chat\Chat\obj\Debug\Chat.pdb
+D:\work_Chat\Chat\Chat\bin\Debug\DevTrends.WCFDataAnnotations.dll
+D:\work_Chat\Chat\Chat\bin\Debug\System.Numerics.Vectors.dll
+D:\work_Chat\Chat\Chat\bin\Debug\System.Reflection.DispatchProxy.dll
+D:\work_Chat\Chat\Chat\bin\Debug\System.Security.AccessControl.dll
+D:\work_Chat\Chat\Chat\bin\Debug\System.Security.Cryptography.Xml.dll
+D:\work_Chat\Chat\Chat\bin\Debug\System.Security.Permissions.dll
+D:\work_Chat\Chat\Chat\bin\Debug\System.Security.Principal.Windows.dll
+D:\work_Chat\Chat\Chat\bin\Debug\DevTrends.WCFDataAnnotations.pdb
+D:\work_Chat\Chat\Chat\bin\Debug\System.Numerics.Vectors.xml
+D:\work_Chat\Chat\Chat\bin\Debug\System.Reflection.DispatchProxy.xml
+D:\work_Chat\Chat\Chat\bin\Debug\System.Security.AccessControl.xml
+D:\work_Chat\Chat\Chat\bin\Debug\System.Security.Cryptography.Xml.xml
+D:\work_Chat\Chat\Chat\bin\Debug\System.Security.Permissions.xml
+D:\work_Chat\Chat\Chat\bin\Debug\System.Security.Principal.Windows.xml
